@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image:url(download.jpg);
+            
+        }
+        .header{
+            border: 1px solid black;
+            height: 150px;
+            width: 100vwh;
+            display: flex;
+            background-color:#29546c;
+        }
+        .hig{
+            height: 800px;
+        }
+        h1{
+            margin: 0 0 0 50px;
+            display: flex;
+            align-items: center;
+        }
+        .head{
+            border: 1px solid black;
+            height: 20px;
+            width: 100vwh;
+            display: flex;
+            flex-direction:row-reverse;
+            gap: 30px;
+            background-color: white;
+            
+        }
+        .box{
+            border: 3px solid whitesmoke;
+            height: 100px;
+            width: 300px;
+            display: flex;
+            background-color: white;
+            background-color: transparent;
+        
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .box:hover{
+            background-color: azure;
+        }
+        .head2{
+            
+            width: 100vwh;
+            height: 800px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+        }
+        a{
+           text-transform: none;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.1.png"/>
+        <h1>Rajasthan Staff Selection Board, Jaipur</h1>
+    </div>
+    <div class="head">
+        <img src="C:\Users\DELL\Desktop\tool.png"/>
+        
+        <p><a href="#">login</a></p>
+        <p><a href="#">skip to main content</a></p>
+        <p><a href="#">screen reader access</a></p>
+
+    </div>
+    <div class="head2">
+        <box class="box"><h3>Requirement advertisement</h3></box>
+        <box class="box"><h3>Result</h3></box>
+        <box class="box"><h3>news notification</h3></box>
+        <box class="box"><h3>Admit card</h3></box>
+    </div>
+    <div class="hig"></div>
+    
+    <button onclick="change()"></button>
+    
+</body>
+<script>
+setInterval(()=>{
+    document.getElementById("ajay").innertext=""
+},2000);
+
+setInterval(()=>{
+    document.getElementById("ajay").innerText=""
+},3000);
+
+</script>
+</html>
